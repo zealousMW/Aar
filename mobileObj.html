@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D object</title>
+    <link rel="stylesheet" href="./css/mobile.css">
+    <script type="module" src="./lib/mv.js"></script>
+    <script src="./js/mobileObj.js"></script>
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="topNav center">
+            <div class="logo center">
+                <img src="./ar.png" alt="">
+            </div>
+            <div class="title center">
+                <p>
+                    Plant Cell
+                </p>
+            </div>
+        </div>
+        <div class="cardSection">
+            <model-viewer class="model modelViewer" id="model-id" src="./assets/plantcell/plantcell.gltf" ar
+                ar-modes="webxr scene-viewer quick-look" camera-controls shadow-intensity="1" auto-rotate
+                shadow-softness="1" interpolation-decay="150" min-field-of-view="12deg">
+        </div>
+
+    </div>
+</body>
+
+</html>
